@@ -1,6 +1,9 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
 :root{
     --cor1: #16302B;
     --cor2: #E3DC95;
@@ -16,6 +19,8 @@
     padding: 0;
     margin: 0;
 }
+
+
 header{
     background-color: var(--cor1);
     position: relative;
@@ -39,7 +44,7 @@ header > p{
 body{
     background-image: url(imagens/imagem-topo.jpg) ;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     
 }
 
