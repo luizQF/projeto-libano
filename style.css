@@ -25,6 +25,7 @@ header{
     background-color: var(--cor1);
     position: relative;
     padding: 5px;
+    background-attachment: fixed;
 }
 header > h1{
     color: white;
@@ -42,10 +43,13 @@ header > p{
 }
 
 body{
-    background-image: url(imagens/imagem-topo.jpg) ;
+    background-color: white;
+    background-image: url(imagens/imagem-topo.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;   
+    background-attachment: scroll;
+    /*shorthand: background: white url(imagens/imagem-topo.jpg) center center no-repeat scroll*/
 }
 
 main{
