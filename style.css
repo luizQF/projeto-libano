@@ -20,18 +20,20 @@
     margin: 0;
 }
 
-
 header{
     background-color: var(--cor1);
-    position: relative;
     padding: 5px;
-    background-attachment: fixed;
+    position: relative;
+    box-shadow: 151px 120px 184px rgba(0, 0, 0, 0.353);
 }
+
 header > h1{
     color: white;
     text-align: center;
     font: normal 6em var(--fontetitulo);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.396);
 }
+
 header > p{
     color: white;
     text-align: center;
@@ -40,6 +42,7 @@ header > p{
     font-weight: lighter;
     position: absolute;
     top:69%; left: 49%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.396);
 }
 
 body{
@@ -49,12 +52,47 @@ body{
     background-repeat: no-repeat;
     background-size: cover;   
     background-attachment: scroll;
+    min-width: 413px;
     /*shorthand: background: white url(imagens/imagem-topo.jpg) center center no-repeat scroll*/
 }
 
 main{
-    background-color: white;
-    width: 100%;
     margin: 300px 0;
 }
 
+div{
+    background-color: white;
+    margin: auto;
+    height: 565px;
+    text-align: center;
+    display: block;
+    width: 50%;
+    min-width: 414px;
+    position: relative;
+}
+
+span.cardapio{
+    width: 90%;
+    background-color: white;
+    border: 2px solid var(--cor2);
+    padding: 2%;
+    display: inline-block;
+    position: absolute;
+    left: 2.5%; top: 3.5%;
+    margin: auto;
+    height: 500px;
+}
+
+.cardapio > h2{
+  font-family: var(--fontetitulo);
+  font-size: 3.8em;
+  font-weight: lighter;
+}
+
+main ul{
+    padding-top: 50px;
+    text-align: left;
+    list-style-position: inside;
+    line-height: 40px;
+    font-family: var(--fonte-p)
+}
