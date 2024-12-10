@@ -18,6 +18,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: var(--fontepadrao)
 }
 
 header{
@@ -46,53 +47,30 @@ header > p{
 }
 
 body{
-    background-color: white;
     background-image: url(imagens/imagem-topo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;   
     background-attachment: scroll;
-    min-width: 413px;
+    height: 100%;
     /*shorthand: background: white url(imagens/imagem-topo.jpg) center center no-repeat scroll*/
 }
 
 main{
-    margin: 300px 0;
+    margin-top: 150px;
 }
 
 div{
-    background-color: white;
-    margin: auto;
-    height: 565px;
     text-align: center;
-    display: block;
-    width: 50%;
-    min-width: 414px;
-    position: relative;
 }
 
-span.cardapio{
-    width: 90%;
-    background-color: white;
-    border: 2px solid var(--cor2);
-    padding: 2%;
-    display: inline-block;
-    position: absolute;
-    left: 2.5%; top: 3.5%;
-    margin: auto;
-    height: 500px;
+div > img{
+    width: 35%;
 }
 
-.cardapio > h2{
-  font-family: var(--fontetitulo);
-  font-size: 3.8em;
-  font-weight: lighter;
-}
-
-main ul{
-    padding-top: 50px;
-    text-align: left;
-    list-style-position: inside;
-    line-height: 40px;
-    font-family: var(--fonte-p)
+footer{
+    background-color: var(--cor1);
+    color: rgba(255, 255, 255, 0.322);
+    padding: 3px;
+    text-align: center;
 }
